@@ -1,0 +1,22 @@
+-------------------------------------------------------------------------------
+Test set: se.waymark.rentit.RunCukesIT
+-------------------------------------------------------------------------------
+Tests run: 9, Failures: 2, Errors: 0, Skipped: 3, Time elapsed: 6.172 sec <<< FAILURE!
+Then there will only be 17 cars available for rental            Time elapsed: 0.006 sec  <<< FAILURE!
+java.lang.AssertionError: 
+Expected: is <17>
+     got: <35>
+
+	at org.junit.Assert.assertThat(Assert.java:780)
+	at org.junit.Assert.assertThat(Assert.java:738)
+	at se.waymark.rentit.steps.RentStepdefs.there_will_be_less_cars_available_for_rental(RentStepdefs.java:26)
+	at ?.Then there will only be 17 cars available for rental(se\waymark\rentit\Rent.feature:10)
+Scenario: Find and rent a car         Time elapsed: 0.007 sec  <<< FAILURE!
+java.lang.AssertionError: 
+Expected: is <17>
+     got: <35>
+
+	at org.junit.Assert.assertThat(Assert.java:780)
+	at org.junit.Assert.assertThat(Assert.java:738)
+	at se.waymark.rentit.steps.RentStepdefs.there_will_be_less_cars_available_for_rental(RentStepdefs.java:26)
+	at ?.Then there will only be 17 cars available for rental(se\waymark\rentit\Rent.feature:10)
